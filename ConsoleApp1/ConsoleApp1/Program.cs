@@ -14,17 +14,17 @@ namespace ConsoleApp1
                 Console.WriteLine("Ciao");
                 Task t = new Task(Write);
                 t.Start();
-                int i = 10;
+                int i = 1000;
                 while (i > 0)
                 {
                     Console.WriteLine("Settembre");
-                    i = i - 1;
+                i = i - 1;
                 }
                 Console.ReadLine();
             }
             public static void Write()
             {
-                int i = 10;
+                int i = 1000;
                 while (i >= 0)
                 {
                     Console.WriteLine(i);
